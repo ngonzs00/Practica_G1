@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<project name="ticTacToe" default="ejecutar" basedir="." >
+	<!-- propiedades globales del proyecto -->
+	<property name="fuente" value="./src" />
+	<property name="destino" value="./classes" />
+	<target name="compilar">
+		<javac srcdir="${fuente}"                                                                                            destdir="${destino}" includeantruntime="false"/>
+	</target>   
+
+      <target name="ejecutar" depends="compilar">     
+         <java classname="MainTicTacToe">
+         <classpath>           
+         <pathelement path="${destino}"/>
+         </classpath>        
+      </java>
+   </target>
+                                                                                                
+</project>

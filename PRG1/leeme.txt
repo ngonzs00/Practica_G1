@@ -1,0 +1,9 @@
+COMPILAR EL CODIGO: javac -d ./classes/ ./src/*.java
+GENERAR DOCUMENTACION: javadoc -d ./doc -author -version -private -linksource ./src/*.java
+EJECUTAR CLASE MAINTICTACTOE: java -classpath ./classes MainTicTacToe
+INCLUIR EN PAQUETE es.unileon.prg1.ticTacToe: para hacerlo, hay que abrir los archivos .java de la carpeta src con el comando gedit nombredelarchivo.java y añadir una linea de codigo al inicio tal que asi: package es.unileon.prg1.ticTacToe;
+COMPILAR DESDE EL DIRECTORIO DE TRABAJO: javac -verbose -d ./classes ./src/*.java (el comando empleado en el primer paso me daba error al introducirlo en este paso, por lo que use este otro comando)
+GENERAR DOCUMENTACION DESDE EL DIRECTORIO: javadoc -d ./doc -author -version -private -linksource ./src/*.java
+EJECUTAR DESDE EL DIRECTORIO: java -classpath ./classes es.unileon.prg1.MainTicTacToe
+INCLUIR IMAGENES DENTRO DEL DIRECTORIO ETC/IMAGES Y EJECUTAR: crear carpetas con el comando mkdir y para mover las imagenes con el comando mv. para ejecutar, usar el mismo comando que el punto 7
+CREAR LEEME.TXT: gedit leeme.txt
