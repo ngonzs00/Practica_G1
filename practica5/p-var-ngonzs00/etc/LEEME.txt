@@ -1,0 +1,13 @@
+Practica P-VAR
+
+Alumno:
+   Naím González Sánchez.
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica:
+   por el momento ningun problema a destacar.
+
+Respuestas a la preguntas:
+   -030101, ejercicio 4: el empleo del formato en decimales tiene un pequeño problema, y éste es que al operar el ordenador, lo hace en binario, por ello, muchas veces pasa que no es capaz de representar en base 2 algo que nosotros representamos en base 10 y entonces el resultado es ligeramente diferente.
+   -030101, ejercicio 5: al usar el BigDecimal, el problema del ejercicio 04 desaparece, pero por contra tarda un poco mas en calcular. Si vamos a trabajar con datos importantes, como medidas de alguna pieza de maquinaria, datos bancarios, etc, es mas recomendable usar BigDecima por ser mas preciso que el Formato decimal.
